@@ -1,0 +1,48 @@
+
+
+a:hover {
+    transform: scale(1.1);
+}
+
+.bg-darkblue {
+    background: #2d53da;
+} 
+
+.text-darkblue {
+     color:#2d53da;
+}
+
+.text-gray {
+    color: #797979;
+}
+
+.font-sm {
+    font-size: 14px;
+}
+
+
+.sponsor img:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.services {
+    background-image: url(img/bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+}
+
+
+@media (max-width:567px) {
+
+    .services {
+    background-image: url(img/bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 2200px;
+    width: 100%;
+}
+
+}
